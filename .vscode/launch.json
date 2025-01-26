@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/milo/Downloads/Activity3.1.1/csci-41-spring2025-week1-activity-emilio2321",
+      "program": "/Users/milo/Downloads/Activity3.1.1/csci-41-spring2025-week1-activity-emilio2321/build/Debug/outDebug"
+    }
+  ]
+}
