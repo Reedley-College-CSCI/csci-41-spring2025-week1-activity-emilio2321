@@ -22,6 +22,7 @@ int main()
     {
         intTable[count] = (count * 2);
         doubleTable[count] = (count * 2.14);
+        intTable2[count] = (count * 4);
     }
 
     // Display the values in the SimpleVectors.
