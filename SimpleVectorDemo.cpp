@@ -14,6 +14,9 @@ int main()
     // Create a SimpleVector of doubles.
     SimpleVector<double> doubleTable(SIZE);
 
+    //New Simple vector of ints
+    SimpleVector<int> intTable2(SIZE);
+
     // Store values in the two SimpleVectors.
     for (count = 0; count < SIZE; count++)
     {
