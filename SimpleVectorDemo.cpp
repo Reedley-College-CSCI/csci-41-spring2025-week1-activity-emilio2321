@@ -34,6 +34,11 @@ int main()
     for (count = 0; count < SIZE; count++)
         cout << doubleTable[count] << " ";
     cout << endl;
+    cout << "These values are in intTable2" << endl;
+    for (count = 0; count < SIZE; count ++){
+        cout << intTable2[count] << " ";
+    }
+    cout << endl;
 
     // Use the standard + operator on the elements.
     cout << "\nAdding 5 to each element of intTable"
@@ -42,6 +47,7 @@ int main()
     {
         intTable[count] = intTable[count] + 5;
         doubleTable[count] = doubleTable[count] + 5.0;
+        intTable2[count] = intTable2[count] + 5;
     }
 
     // Display the values in the SimpleVectors.
@@ -52,6 +58,11 @@ int main()
     cout << "These values are in doubleTable:\n";
     for (count = 0; count < SIZE; count++)
         cout << doubleTable[count] << " ";
+    cout << endl;
+    cout << "These values are in intTable2" << endl;
+    for (count = 0; count < SIZE; count ++){
+        cout << intTable2[count] << " ";
+    }
     cout << endl;
 
     // Use the standard ++ operator on the elements.
@@ -61,6 +72,7 @@ int main()
     {
         intTable[count]++;
         doubleTable[count]++;
+        intTable2[count]++;
     }
 
     // Display the values in the SimpleVectors.
@@ -71,6 +83,11 @@ int main()
     cout << "These values are in doubleTable:\n";
     for (count = 0; count < SIZE; count++)
         cout << doubleTable[count] << " ";
+    cout << endl;
+    cout << "These values are in intTable2" << endl;
+    for (count = 0; count < SIZE; count ++){
+        cout << intTable2[count] << " ";
+    }
     cout << endl;
 
     return 0;
